@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>FretVu</title>
+</head>
+<body>
+ <div class="fretboard">
+   <div class="string" id="high-e-string">
+     <div class="note-fret">
+       <div class="circle" id="oneZero"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="oneOne"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="oneTwo"></div>
+     </div>
+     <div class="note-fret single-fretmark">
+       <div class="circle" id="oneThree"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="oneFour"></div>
+     </div>
+     <div class="note-fret single-fretmark">
+       <div class="circle" id="oneFive"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="oneSix"></div>
+     </div>
+     <div class="note-fret single-fretmark">
+       <div class="circle" id="oneSeven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="oneEight"></div>
+     </div>
+     <div class="note-fret single-fretmark">
+       <div class="circle" id="oneNine"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="oneTen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="oneEleven"></div>
+     </div>
+     <div class="note-fret double-fretmark">
+       <div class="circle" id="oneTwelve"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="oneThirteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="oneFourteen"></div>
+     </div>
+     <div class="note-fret single-fretmark">
+       <div class="circle" id="oneFifteen"></div>
+     </div>
+   </div>
+   
+   <div class="string" id="b-string">
+     <div class="note-fret">
+       <div class="circle" id="twoZero"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoOne"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoTwo"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoThree"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoFour"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoFive"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoSix"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoSeven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoEight"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoNine"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoTen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoEleven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoTwelve"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoThirteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoFourteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="twoFifteen"></div>
+     </div>
+   </div>
+   
+   <div class="string" id="g-string">
+     <div class="note-fret">
+       <div class="circle" id="threeZero"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeOne"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeTwo"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeThree"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeFour"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeFive"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeSix"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeSeven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeEight"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeNine"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeTen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeEleven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeTwelve"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeThirteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeFourteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="threeFifteen"></div>
+     </div>
+   </div>
+   
+   <div class="string" id="d-string">
+     <div class="note-fret">
+       <div class="circle" id="fourZero"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourOne"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourTwo"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourThree"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourFour"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourFive"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourSix"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourSeven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourEight"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourNine"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourTen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourEleven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourTwelve"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourThirteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourFourteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fourFifteen"></div>
+     </div>
+   </div>
+   
+   <div class="string" id="a-string">
+     <div class="note-fret">
+       <div class="circle" id="fiveZero"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveOne"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveTwo"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveThree"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveFour"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveFive"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveSix"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveSeven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveEight"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveNine"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveTen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveEleven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveTwelve"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveThirteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveFourteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="fiveFifteen"></div>
+     </div>
+   </div>
+   
+   <div class="string" id="low-e-string">
+     <div class="note-fret">
+       <div class="circle" id="sixZero"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixOne"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixTwo"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixThree"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixFour"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixFive"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixSix"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixSeven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixEight"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixNine"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixTen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixEleven"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixTwelve"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixThriteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixFourteen"></div>
+     </div>
+     <div class="note-fret">
+       <div class="circle" id="sixFifteen"></div>
+     </div>
+   </div>
+</div>
+  <script src="./app.js"></script>
+</body>
+</html>
